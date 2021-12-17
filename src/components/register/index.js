@@ -14,7 +14,7 @@ export default function Register() {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("https://b5cf-197-250-227-199.ngrok.io/auth/register", data)
+      .post("https://simple-form-4887.herokuapp.com/auth/register", data)
       .then((res) => {
           setHasResponse(true);
           setApiMsg(res.data.msg);
