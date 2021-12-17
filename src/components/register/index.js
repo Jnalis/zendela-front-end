@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useForm } from "react-hook-form";
 import { Button, Form, Container, Card, Row, Col, ToastContainer, Toast } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import axios from "axios";
 
 export default function Register() {
@@ -127,11 +127,11 @@ export default function Register() {
                     Signup
                   </Button>
                 </Row>
-                <Row>
+                {/* <Row>
                   <p>
                     Already have an account, <Link to="/">Click here</Link>
                   </p>
-                </Row>
+                </Row> */}
               </Container>
             </Form>
           </Card.Body>
